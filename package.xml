@@ -1,0 +1,24 @@
+<package>
+  <name>image_conv</name>
+  <version>0.0.1</version>
+  <description>A ROS Driver for image from ros to opencv</description>
+
+  <maintainer email="gym8119@mail.ustc.edu.cn">GYM</maintainer>
+  <author email="gym8119@mail.ustc.edu.cn">GYM</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>image_transport</build_depend> 
+  <build_depend>roscpp</build_depend> 
+  <build_depend>std_msgs</build_depend> 
+  <build_depend>sensor_msgs</build_depend> 
+  <build_depend>opencv</build_depend>
+
+  <run_depend>image_transport</run_depend> 
+  <run_depend>roscpp</run_depend> 
+  <run_depend>std_msgs</run_depend> 
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+</package>
